@@ -68,13 +68,13 @@ Put this inplace of what is in the configuartion.
 GatewayInterface wlan1
 GatewayAddress 192.168.4.1
 MaxClients 250
-use_outdated_mhd 1 *
+#use_outdated_mhd 1
 ```
 For this, I used another wireless card since the device is being a MITM captive portal. Make sure its the interface that supports monitor/AP mode. If its seperate from the PI it will be wlan1 in most cases. The IP should be the IP of the PI on the subnet that its hosting for users to connect. If you're forwarding ethernet then use wlan0.
 
 ``sudo nodogsplash``
 Once this starts you'll be able to see devices connecting to your device. 
-* If theres a bug and it breaks, add this line (Specified by *)
+* If theres a bug and it breaks, add this line (Specified by #)
 
 
 ## Sources
