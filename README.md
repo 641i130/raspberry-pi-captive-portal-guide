@@ -9,6 +9,7 @@ With this device/configuartion, you can use it to trick users in giving their ow
 * Alfa Wireless Card
 * SD Card (Can be at least 4GB) / Host computer to install Raspbian
 * Nessary Cables and Case if needed
+* Some Linux/Debian experience
 
 # Installation Guide
 (Use the [Raspbian Buster Lite Version](https://www.raspberrypi.org/downloads/raspbian/))
